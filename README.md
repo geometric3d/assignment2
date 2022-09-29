@@ -37,7 +37,7 @@ We provide a picture of stanford bunny `data/q1/bunny.jpeg` and 2D-3D point corr
 
 ## Q2: Camera calibration `K` from annotations (40 points + 10 points bonus)
 ### (a) Camera calibration from vanishing points (20 points)
-In this question, your goal is to compute `K` from a triad of orthogonal vanishing point, assuming that the camera has zero skew, and that the pixels are square. 
+In this question, your goal is to compute `K` from a triad of orthogonal vanishing points, assuming that the camera has zero skew, and that the pixels are square. 
 
 **Dataset**
   1. Run your code on `data/q2a.png`. Annotate 3 pairs of parallel lines that are orthogonal to each other.
@@ -106,7 +106,7 @@ In this question, your goal is to reconstruct a colored point cloud from a singl
 
 ### (a) (30 points)
 **Dataset**
-  1. Run your code on `data/q3a.png`. You may assume zero skew and square pixels for `data/q3a.png`.
+  1. Run your code on `data/q3.png`. You may assume zero skew and square pixels for `data/q3.png`.
   
 **Submissions**
   1. Output reconstruction from at least two different views. Also include visualizations of annotations that you used. See the following figure as an example:
@@ -128,7 +128,7 @@ In this question, your goal is to reconstruct a colored point cloud from a singl
     4. Compute rays for each point. Pick one point as reference and set its depth. 
     5. Compute plane equation given the known 3D point.
     6. Compute 3D coordinate of all points on the plane via ray-plane intersection.
-    7. Repeat step 5-6 to obtain equations for all planes (and all 3D points).
+    7. Repeat the above two steps to obtain equations for all planes (and all 3D points).
 
   
 ### (b) (10 points bonus)
