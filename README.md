@@ -19,7 +19,7 @@ We provide a picture of stanford bunny `data/q1/bunny.jpeg` and 2D-3D point corr
 **Instructions**
   1. Compute the camera matrix `P` using the provided 2D-3D correspondences.
   2. We provide a set of 3D surface points in `data/q1/bunny_pts.npy`. Project these points to the image using your calculated `P`. See the example below.
-  3. We provide the 8 vertices of the bounding box in `data/q1/bunny_bd.npy`. Project these points to the image and draw the cuboid. See the example below.
+  3. We provide the 12 edges of the bounding box in `data/q1/bunny_bd.npy`. Each line contains 6 numbers, where every 3 numbers denote 1 point. Project these points to the image and draw the cuboid. See the example below.
 
   | Surface Points  | Bounding Box |
   | ----------- | ----------- | 
