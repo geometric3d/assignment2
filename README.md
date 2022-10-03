@@ -1,4 +1,8 @@
 # HW2: Single-view Reconstruction
+## Updates
+* 10/03: Reference annotations released for q2a, q2b & q3. 
+
+  Explanation of format and example code for visualization can be found in [annotations.py](https://github.com/geometric3d/assignment2/blob/master/annotations.py). It's not mandatory to use the reference annotations; you may use your annotations instead.
 
 ## Instructions
 * Late Submission Policy: See the late submission policy [here](https://geometric3d.github.io/pages/assignments/hw0.html).
