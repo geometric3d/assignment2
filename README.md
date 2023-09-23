@@ -1,8 +1,4 @@
 # HW2: Single-view Reconstruction
-## Updates
-* 10/03: Reference annotations released for q2a, q2b & q3. 
-
-  Explanation of format and example code for visualization can be found in [annotations.py](https://github.com/geometric3d/assignment2/blob/master/annotations.py). It's not mandatory to use the reference annotations; you may use your annotations instead.
 
 ## Instructions
 * Late Submission Policy: See the late submission policy [here](https://geometric3d.github.io/pages/assignments/hw0.html).
@@ -45,6 +41,7 @@ In this question, your goal is to compute `K` from a triad of orthogonal vanishi
 
 **Dataset**
   1. Run your code on `data/q2a.png`. Annotate 3 pairs of parallel lines that are orthogonal to each other.
+  2. We provide a set of annotations of pairs of parallel lines in `data/q2/q2a.npy`. Visualization can be found by running `python annotations.py`.
 
 **Submission**
   1. Output plots of the vanishing points and the principal point. Also include visualizations of the annotations that you used. See the following figures:
@@ -61,6 +58,7 @@ In this question, your goal is to compute `K` from image of three squares. Diffe
 
 **Dataset**
   1. Run your code on `data/q2b.png`. Annotate 3 squares in the image.
+  2. We provide a set of annotations of squares in `data/q2/q2b.npy`. Visualization can be found by running `python annotations.py`.
 
 **Submission**
   1. Visualizations of annotations that you used. See the following figure as an example:
@@ -111,6 +109,7 @@ In this question, your goal is to reconstruct a colored point cloud from a singl
 ### (a) (30 points)
 **Dataset**
   1. Run your code on `data/q3.png`. You may assume zero skew and square pixels for `data/q3.png`.
+  2. We provide a set of annotations of plane boundaries in `data/q3/q3.npy`. Visualization can be found by running `python annotations.py`.
   
 **Submissions**
   1. Output reconstruction from at least two different views. Also include visualizations of annotations that you used. See the following figure as an example:
