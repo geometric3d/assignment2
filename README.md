@@ -6,6 +6,10 @@
 * There are `3` questions in this assignment. Make sure you follow the instructions and submit the answers as required.
 
 
+## Updates:
+* 2023/10/08: Update the wording of Q2a and Q2b to make it clear that using your own annotations is not required.
+
+
 ## Q1:  Camera matrix `P` from 2D-3D correspondences (30 points)
 In this question, your goal is to compute `P` from 2D-3D point correspondences.
 
@@ -40,8 +44,9 @@ We provide a picture of stanford bunny `data/q1/bunny.jpeg` and 2D-3D point corr
 In this question, your goal is to compute `K` from a triad of orthogonal vanishing points, assuming that the camera has zero skew, and that the pixels are square. 
 
 **Dataset**
-  1. Run your code on `data/q2a.png`. Annotate 3 pairs of parallel lines that are orthogonal to each other.
-  2. We provide a set of annotations of pairs of parallel lines in `data/q2/q2a.npy`. Visualization can be found by running `python annotations.py`.
+  1. Run your code on `data/q2a.png`.
+  2. We provide a set of annotations of 3 pairs of parallel lines in `data/q2/q2a.npy`. Visualization can be found by running `python annotations.py`.
+  3. (optional) Annotate 3 additional pairs of parallel lines that are orthogonal to each other, to see how annotation quality affects your estimate of K.
 
 **Submission**
   1. Output plots of the vanishing points and the principal point. Also include visualizations of the annotations that you used. See the following figures:
@@ -57,8 +62,9 @@ In this question, your goal is to compute `K` from a triad of orthogonal vanishi
 In this question, your goal is to compute `K` from image of three squares. Different from (a), you will not make any additional assumption on `K` (except that it is a projective camera). 
 
 **Dataset**
-  1. Run your code on `data/q2b.png`. Annotate 3 squares in the image.
-  2. We provide a set of annotations of squares in `data/q2/q2b.npy`. Visualization can be found by running `python annotations.py`.
+  1. Run your code on `data/q2b.png`.
+  2. We provide a set of 3 annotations of squares in `data/q2/q2b.npy`. Visualization can be found by running `python annotations.py`.
+  3. (optional) Annotate 3 squares, to see how annotation quality affects your estimate of K.
 
 **Submission**
   1. Visualizations of annotations that you used. See the following figure as an example:
