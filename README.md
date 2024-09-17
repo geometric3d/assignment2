@@ -1,8 +1,7 @@
 # HW2: Single-view Reconstruction
 
 ## Instructions
-* Late Submission Policy: See the late submission policy [here](https://geometric3d.github.io/pages/assignments/hw0.html).
-* Submitting your work: Check the instructions for submission [here](https://geometric3d.github.io/pages/assignments/hw0.html).
+* Submitting your work: Check the instructions for submission and late policy [here](https://geometric3d.github.io/submission.html).
 * There are `3` questions in this assignment. Make sure you follow the instructions and submit the answers as required.
 
 
